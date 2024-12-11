@@ -108,7 +108,7 @@ ls -la | grep minishell > results.txt
 ```
 This command lists all files, filters results containing "minishell," and writes the output to `results.txt`.
 
-### Example 2: Logical Operators with Redirection
+### Example 2: Logical Operators
 ```bash
 cat file.txt && echo "File exists." || echo "File does not exist."
 ```
